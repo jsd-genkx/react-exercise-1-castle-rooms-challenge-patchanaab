@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Castle from "./components/01_Castle";
 
+
 // This is a Kingdom Component
 function App() {
   const [replyMessage, setReplyMessage] = useState("");

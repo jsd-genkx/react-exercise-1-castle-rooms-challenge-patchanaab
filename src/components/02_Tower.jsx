@@ -1,10 +1,11 @@
-import SecretRoom from "./09_SecretRoom";
+import Chamber from "./03_Chamber";
+
 const Tower = ({message1,onReply}) => {
   return (
     <div>
       <h1>Tower</h1>
-      <p>Message to JSD7{message1}</p>
-      <SecretRoom message1={message1} onReply={onReply} />
+      <p>Message for you: {message1}</p>
+      <Chamber message1={message1} onReply={onReply} />
     </div>
   )
 };

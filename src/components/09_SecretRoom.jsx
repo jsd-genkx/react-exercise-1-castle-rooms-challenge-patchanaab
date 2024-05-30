@@ -9,15 +9,17 @@ const SecretRoom = ({message1,onReply}) => {
   return(
     <div>
       <h1>SecretRoom</h1>
-      <p>Message For JSD7{message1}</p>
+      <p>Message for you:{message1}</p>
       <input 
       type="text" 
       value={reply} 
       onChange={(e)=>setReply(e.target.value)}
+      placeholder="Type..."
       />
       <button onClick={sendReply} >SEND IT!</button>
     </div>
   )
+  
 };
 
 export default SecretRoom;
