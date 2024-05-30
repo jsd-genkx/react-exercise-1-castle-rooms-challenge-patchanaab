@@ -14,7 +14,7 @@ function App() {
       <p>Message for JSD7: {message1}</p>
       <p>
         Reply from the Secret Room:{" "}
-        <span className="text-red">
+        <span className="text-red font-bold">
           {replyMessage ? replyMessage : "Waiting for a reply..."}
         </span>
       </p>
